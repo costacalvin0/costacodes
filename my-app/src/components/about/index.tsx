@@ -10,7 +10,6 @@ const About: React.FC = () => {
             <button className='ButtonStyle'>Contact Me</button>
             </div>
             <div>
-            <img/>
             </div>
         </div>
     );
