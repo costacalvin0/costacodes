@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                     <p>Follow me</p>
-                    <div>
+                    <div className='Social'>
                         <a href="https://www.instagram.com/ckcg.24/" target="_blank" rel="noopener noreferrer"><InstagramIcon/></a>
                         <a href="https://twitter.com/costacalvin0" target="_blank" rel="noopener noreferrer"><TwitterIcon/></a>
                         <a href="https://github.com/costacalvin0" target="_blank" rel="noopener noreferrer"><GitHubIcon/></a>

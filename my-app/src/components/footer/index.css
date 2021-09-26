@@ -9,3 +9,8 @@
 .Content {
     color: #9DA2AE;
 }
+
+.Social {
+    display: flex;
+    gap: 10px;
+}

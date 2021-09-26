@@ -5,10 +5,10 @@ const ProjectCard = () => {
     return (
         <div>
             <Card>
-                <CardMedia></CardMedia>
+                <CardMedia><img src="../../../images/pathgo/pathgo.PNG" alt="pathgo app" /></CardMedia>
                 <CardHeader></CardHeader>
-                <CardContent></CardContent>
-                <CardActionArea></CardActionArea>
+                <CardContent> A website tasked with creating a simple and intuitive way for getting indoor navigation within large and small complexes. Uses react, typescript, AWS to complete our main vision.</CardContent>
+                <CardActionArea>Learn More</CardActionArea>
             </Card>
         </div>
     )

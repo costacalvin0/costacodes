@@ -8,7 +8,7 @@
 
  const Home: React.FC = () => {
 return (
-    <div className="Body">
+    <div className="body">
     <Navbar />
     <About />
     <Projects />

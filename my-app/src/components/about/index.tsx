@@ -3,7 +3,16 @@ import './index.css';
 
 const About: React.FC = () => {
     return (
-        <h1>Hello i'm Calvin Costa</h1>
+        <div className='Hero'>
+            <div>
+            <h1> Hi, im Calvin Costa. <br/> A developer. </h1>
+            <br/>
+            <button className='ButtonStyle'>Contact Me</button>
+            </div>
+            <div>
+            <img/>
+            </div>
+        </div>
     );
 };
 
