@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             </div>
             <div>
                 <div>
-                    <p>Subscribe to our newsletter</p>
+                    <p>Email Me!</p>
                     <div>
                         <TextField placeholder="Your email"></TextField>
                     </div>
