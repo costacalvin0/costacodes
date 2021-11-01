@@ -1,8 +1,6 @@
 .Footer {
     color: white;
     background-color: #1C2444;
-    display: flex;
-    justify-content: space-around;
     padding: 10px;
 }
 

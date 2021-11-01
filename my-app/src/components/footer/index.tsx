@@ -4,34 +4,35 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { TextField } from '@material-ui/core';
+import { Grid } from '@mui/material';
 
 const Footer: React.FC = () => {
     return (
         <div className='Footer'>
-            <div>
+            <Grid container spacing={3}>
+            <Grid item xs={12} sm={6} md={3}>
                 <p><strong>INFO</strong></p>
                 <p>Formats</p>
                 <p>Compression</p>
                 <p>Pricing</p>
-            </div>
-            <div>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
             <p><strong>RESOURCES</strong></p>
                 <p>Developer API</p>
                 <p>Tools</p>
                 <p>Blog</p>
-            </div>
-            <div>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
             <p><strong>COMPANY</strong></p>
                 <p>About Us</p>
                 <p>Sustainability</p>
                 <p>Terms Of Service</p>
-            </div>
-            <div>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
                 <div>
-                    <p>Email Me!</p>
+                    <p>Contact Me!</p>
                     <div>
-                        <TextField placeholder="Your email"></TextField>
+                        <p>Email: costacalvin0@gmail.com</p>
                     </div>
                 </div>
                 <div>
@@ -44,7 +45,8 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
                 
-            </div>
+            </Grid>
+            </Grid>
         </div>
     );
 };
