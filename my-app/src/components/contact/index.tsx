@@ -3,7 +3,7 @@ import './index.css';
 
 const Contact: React.FC = () => {
     return (
-        <h1>Content goes here</h1>
+        <h1> </h1>
     );
 };
 

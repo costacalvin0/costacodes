@@ -1,15 +1,30 @@
-import { Card, CardActionArea, CardContent, CardHeader, CardMedia } from '@material-ui/core';
+import { Card, CardActionArea, CardContent, CardMedia } from '@material-ui/core';
 import React from 'react'
 import "./index.css";
 
-const ProjectCard = () => {
+export type ProjectCardProps = {
+    title: string,
+    description: string,
+    image: string,
+    demo?: string,
+    github?: string;
+};
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+    title,
+    description,
+    image,
+    demo,
+    github,
+}) => {
     return (
         <div>
-            <Card className='size'>
-                <CardMedia><img src="../../../images/pathgo/pathgo.PNG" alt="pathgo app" /></CardMedia>
-                <CardHeader></CardHeader>
-                <CardContent> A website tasked with creating a simple and intuitive way for getting indoor navigation within large and small complexes. Uses react, typescript, AWS to complete our main vision.</CardContent>
-                <CardActionArea>Learn More</CardActionArea>
+            <Card className='card'>
+                <CardMedia ><img src={image} alt="pathgo app" className='Image' /></CardMedia>
+                <h3>{title}</h3>
+                <CardContent>{description}</CardContent>
+                <CardActionArea><a href={demo} >Demo</a></CardActionArea>
+                <CardActionArea><a href={github}>Github</a></CardActionArea>
             </Card>
         </div>
     )

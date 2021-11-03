@@ -1,4 +1,23 @@
-.size {
+.card {
     max-width: 50vw;
-    min-width: 33vh;
+    text-align: center;
+}
+
+.Image {
+    max-width: 33vw;
+}
+
+@media (max-width: 900px ) {
+    .Image {
+        max-width: 50vw;
+    }
+}
+
+@media (max-width: 600px ) {
+    .Image {
+        max-width: 80vw;
+    }
+    .card {
+        max-width: 80vw;
+    }
 }

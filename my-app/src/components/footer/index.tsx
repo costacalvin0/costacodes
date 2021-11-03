@@ -4,7 +4,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { Grid } from '@mui/material';
+import { Divider, Grid } from '@mui/material';
 
 const Footer: React.FC = () => {
     return (
@@ -47,6 +47,11 @@ const Footer: React.FC = () => {
                 
             </Grid>
             </Grid>
+            <Divider/>
+            <div className='Copyright'>
+                <p><a href="https://www.costacodes.com/" target="_blank" rel="noopeber noreferrer">CostaCodes.com</a></p>
+                <p> &copy; 2021, Calvin Costa</p>
+            </div>
         </div>
     );
 };
