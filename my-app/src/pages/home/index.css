@@ -11,3 +11,8 @@ body {
     text-decoration: none;
     color: inherit;
   }
+
+  a:hover {
+    color: #8cb9db;
+    text-decoration: none;
+}

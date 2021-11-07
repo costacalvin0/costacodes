@@ -1,0 +1,9 @@
+.navburger {
+    width: 33vw;
+    color: #2E5266;
+    text-align: center;
+}
+
+.navburger a:hover {
+    background-color: white;
+}

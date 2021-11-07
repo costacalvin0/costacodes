@@ -28,7 +28,6 @@ export default function BasicMenu() {
         <MenuIcon/>
       </Button>
       <Menu
-        className="basic-menus"
         id="basic-menu"
         anchorEl={anchorEl}
         open={open}
@@ -37,6 +36,7 @@ export default function BasicMenu() {
           'aria-labelledby': 'basic-button',
         }}
       >
+        <div className="navburger">
         <MenuItem onClick={handleClose}><a href="#Skills"><h4>Skills</h4></a></MenuItem>
         <Divider/>
         <MenuItem onClick={handleClose}><a href="#Experiences"><h4>Experiences</h4></a></MenuItem>
@@ -44,6 +44,7 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose}><a href="#Projects"><h4>Projects</h4></a></MenuItem>
         <Divider/>
         <MenuItem onClick={handleClose}><a href="#Contact"><h4>Contact</h4></a></MenuItem>
+        </div>
       </Menu>
     </div>
   );
