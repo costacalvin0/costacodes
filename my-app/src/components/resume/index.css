@@ -1,0 +1,32 @@
+.overall {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.buttonstyle {
+    background-color: #2E5266;
+}
+
+.skillsection {
+    padding-top: 50px;
+}
+
+.skills {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .overall {
+        text-align: center;
+    }
+
+    .skills {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

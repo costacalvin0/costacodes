@@ -7,7 +7,7 @@ export type ProjectCardProps = {
     description: string,
     image: string,
     demo?: string,
-    github?: string;
+    code?: string;
 };
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -15,16 +15,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     description,
     image,
     demo,
-    github,
+    code,
 }) => {
     return (
         <div>
             <Card className='card'>
-                <CardMedia ><img src={image} alt="pathgo app" className='Image' /></CardMedia>
+                <CardMedia ><img src={image} alt="Project Visual" className='Image' /></CardMedia>
                 <h3>{title}</h3>
                 <CardContent>{description}</CardContent>
                 <CardActionArea><a href={demo} >Demo</a></CardActionArea>
-                <CardActionArea><a href={github}>Github</a></CardActionArea>
+                <CardActionArea><a href={code}>Code</a></CardActionArea>
             </Card>
         </div>
     )
