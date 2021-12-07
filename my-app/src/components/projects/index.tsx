@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
 
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-                    <ProjectCard title='PathGo' description='A website tasked with creating a simple and intuitive way for getting indoor navigation within large and small complexes. Uses react, typescript, AWS to complete our main vision.' image='https://content.fortune.com/wp-content/uploads/2019/01/boo.jpg'/>
+                    <ProjectCard title='CostaCodes' description='A website tasked with creating a simple and intuitive way for getting indoor navigation within large and small complexes. Uses react, typescript, AWS to complete our main vision.' image='https://content.fortune.com/wp-content/uploads/2019/01/boo.jpg'/>
 
         </Grid>
         <Grid item xs={12} sm={6} md={4}>

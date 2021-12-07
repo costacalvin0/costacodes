@@ -1,20 +1,37 @@
 .Footer {
+    text-align: center;
     color: white;
     background-color: #1C2444;
-    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.Content {
-    color: #9DA2AE;
+#filled-basic {
+    border-radius: 5px;
+    background-color: white;
+}
+
+#message {
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .Social {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
 .Copyright {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .Social {
+        flex-direction: row;
+    }
 }
