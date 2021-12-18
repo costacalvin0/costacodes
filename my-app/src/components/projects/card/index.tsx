@@ -23,8 +23,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 <CardMedia ><img src={image} alt="Project Visual" className='Image' /></CardMedia>
                 <h3>{title}</h3>
                 <CardContent>{description}</CardContent>
-                <CardActionArea><a href={demo} >Demo</a></CardActionArea>
-                <CardActionArea><a href={code}>Code</a></CardActionArea>
+                <CardActionArea><a href={demo} target="_blank" rel="noopener noreferrer">Demo</a></CardActionArea>
+                <CardActionArea><a href={code} target="_blank" rel="noopener noreferrer">Code</a></CardActionArea>
             </Card>
         </div>
     )

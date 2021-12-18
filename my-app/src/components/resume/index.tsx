@@ -12,14 +12,25 @@ const Resume: React.FC = () => {
             </p>
             <Button href="https://docs.google.com/document/d/e/2PACX-1vT2REjM_6SzJAtcWq_-3O75hYABGF5ZP8EWrM9cgV9xlndLWq9CWno1t8IwDGMukKkn7ZwTU3Gcb3RC/pub" target="_blank" rel="noreferrer">My Resume</Button>
             <div className="skillsection">
-                <label htmlFor="skills"><h2>Skills</h2></label>
+                <label htmlFor="skills"><h2>Programming</h2></label>
                 <Divider/>
                     <div className="skills" id="skills">
                         <h4>C++</h4>
                         <h4>React</h4>
-                        <h4>JavaScript</h4>
-                        <h4>HTML/CSS</h4>
+                        <h4>JavaScript &amp; TypeScript</h4>
+                        <h4>HTML5/CSS3</h4>
                         <h4>Python</h4>
+                    </div>
+            </div>
+            <div className="skillsection">
+                <label htmlFor="skills"><h2>Tools</h2></label>
+                <Divider/>
+                    <div className="skills" id="skills">
+                        <h4>Netlify</h4>
+                        <h4>MongoDB</h4>
+                        <h4>Firebase</h4>
+                        <h4>CircleCI</h4>
+                        <h4>VSCode</h4>
                     </div>
             </div>
         </div>
