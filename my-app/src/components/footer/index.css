@@ -6,6 +6,10 @@
     padding-right: 50px;
 }
 
+.Button {
+    width: 200px;
+}
+
 #filled-basic {
     border-radius: 5px;
     background-color: white;
@@ -24,13 +28,17 @@
     gap: 20px;
 }
 
+.Social h3 {
+    margin: 0px;
+}
+
 .Copyright {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
     .Social {
         flex-direction: row;
     }

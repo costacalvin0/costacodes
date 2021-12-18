@@ -8,7 +8,7 @@ const Resume: React.FC = () => {
         <div className="overall">
             <h1> About </h1>
             <Divider/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, voluptas est. Perspiciatis delectus debitis exercitationem tempore incidunt laborum velit expedita cumque consequatur omnis ea dolore fugiat magni sequi aliquid dolor tempora doloribus a, architecto molestiae. Tempore saepe veniam itaque amet suscipit. Excepturi aspernatur iusto debitis, quisquam laborum sunt eum expedita impedit perferendis fugiat cumque in deleniti magni odit eligendi assumenda quas quasi. Iusto doloremque culpa saepe, delectus repudiandae perferendis accusantium voluptatem corrupti sunt tempore facilis quasi illo eligendi nisi harum omnis voluptates odit ad officiis sit qui ex fuga distinctio! Nemo velit nihil, sunt rem quia tempore. Corporis, accusantium inventore. Blanditiis consectetur voluptatibus autem labore sed vel aperiam est eos laudantium, minima odio sunt, culpa accusantium fugiat dolorem sint! Aliquam!
+            <p>Recent college graduate with a Bachelor’s degree in Computer Science. I've had years of software development experience and I'm very skilled with React, JavaScript, C++, Python, and most things web development. Looking to advance my skills with cloud technology such as AWS and backend such as Node.js.
             </p>
             <Button href="https://docs.google.com/document/d/e/2PACX-1vT2REjM_6SzJAtcWq_-3O75hYABGF5ZP8EWrM9cgV9xlndLWq9CWno1t8IwDGMukKkn7ZwTU3Gcb3RC/pub" target="_blank" rel="noreferrer">My Resume</Button>
             <div className="skillsection">

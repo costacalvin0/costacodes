@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                 <h1>Contact Me</h1>
                 <TextField required autoComplete="email" id="filled-basic" fullWidth label="Email" placeholder="brucewayne@waynetech.com" variant="filled" color="success"/>
                 <TextField required multiline id="message" minRows={4}  fullWidth label="Message" placeholder=" I need a suit... with bat ears. Please keep this between us." variant="standard" color="success"/>
-                <Button variant="contained" endIcon={<EmailIcon />}>
+                <Button type='submit' className="Button" variant="outlined" endIcon={<EmailIcon />}>
         Send
       </Button>
             </Grid>
@@ -27,10 +27,10 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                     <div className='Social'>
-                        <a href="https://www.instagram.com/ckcg.24/" target="_blank" rel="noopener noreferrer"><InstagramIcon/> Instagram</a>
-                        <a href="https://twitter.com/costacalvin0" target="_blank" rel="noopener noreferrer"><TwitterIcon/> Twitter</a>
-                        <a href="https://github.com/costacalvin0" target="_blank" rel="noopener noreferrer"><GitHubIcon/> Github</a>
-                        <a href="https://www.linkedin.com/in/costacalvin0/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/> LinkedIn</a>
+                        <h3><a href="https://www.instagram.com/ckcg.24/" target="_blank" rel="noopener noreferrer"><InstagramIcon/> Instagram</a></h3>
+                        <h3><a href="https://twitter.com/costacalvin0" target="_blank" rel="noopener noreferrer"><TwitterIcon/> Twitter</a></h3>
+                        <h3><a href="https://github.com/costacalvin0" target="_blank" rel="noopener noreferrer"><GitHubIcon/> Github</a></h3>
+                        <h3><a href="https://www.linkedin.com/in/costacalvin0/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/> LinkedIn</a></h3>
                     </div>
                 </div>
                 
